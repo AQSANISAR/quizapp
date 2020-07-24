@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: #B0C4DE	 ;
+}
+.ty{
+flex: auto;
+text-align: center;
+    align-items: center;
+    background-color: #B0C4DE	 ;
+    width: 100vw;
+    height: 50vw;
+   
+}
+#cj{
+  
+    text-decoration: none;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bold;
+   color: black;
+   font-size: 17px;
+}
+
+#btn{
+text-align: center;
+    width: 25%;
+    height: 50px;
+    margin-left: 40px;
+    border: none;
+    background-color: white;
+    border-radius: 100px;
+    transition: 0.4s all;
+}
+button:hover{
+   transform: translateY(-4px);
+}
+button:focus{
+    outline: none;
+}

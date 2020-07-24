@@ -1,0 +1,250 @@
+body{
+
+    background-color:#C0C0C0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.conta{
+ 
+   width: 330px;
+    height: 170px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+ background-color: #20B2AA;
+ transform: translateX(-50%) translateY(70%);
+ padding: 80px;
+ border: 3px solid black;
+ box-shadow: 0px 0px 2px 2px #696969		;
+}
+@media  screen and (max-width:500px){
+   .conta{ width: 230px;
+    height: 85px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%) translateY(70%);}
+    #nB{
+       
+        margin: -4px;
+        margin-left: 70px;
+        width: 140px;
+        height: 30px;
+       
+        
+    }
+}
+@media  screen and (max-width:559px){
+    .conta{ width: 230px;
+     height: 85px;
+     position: absolute;
+     left: 50%;
+     right: 50%;
+     transform: translateX(-50%) translateY(70%);}
+     
+ }
+@media  screen and (max-width:585px){
+    .conta{ width: 300px;
+     height: 170px;
+     position: absolute;
+     left: 53%;
+     right: 50%;
+     transform: translateX(-50%) translateY(70%);}
+     
+ }
+@media  screen and (max-width:568px){
+    .conta{width: 300px;
+        height: 170px;
+        position: absolute;
+        left: 57%;
+        right: 50%;
+        transform: translateX(-50%) translateY(70%);}
+ }
+ @media  screen and (max-width:560px){
+    .conta{ width: 250px;
+     height: 200px;
+     position: absolute;
+     left: 55%;
+     right: 65%;
+     transform: translateX(-50%) translateY(70%);}
+  
+     
+ }
+ @media  screen and (max-width:492px){
+    .conta{ width: 150px;
+     height: 200px;
+     position: absolute;
+     left: 60%;
+     right: 65%;
+     transform: translateX(-50%) translateY(70%);}
+  
+     
+ }
+ @media  screen and (max-width:462px){
+    .conta{ width: 180px;
+     height: 85px;
+     position: absolute;
+     left: 40%;
+     right: 40%;
+     transform: translateX(-50%) translateY(70%);}
+     
+ }
+ @media  screen and (max-width:432px){
+    .conta{ width: 170px;
+     height: 85px;
+     position: absolute;
+     left: 50%;
+     right: 65%;
+     transform: translateX(-50%) translateY(70%);}
+  
+     
+ }
+ 
+
+
+@media  screen and (max-width:413px){
+    .conta{ width: 170px;
+     height: 85px;
+     position: absolute;
+     left: 50%;
+     right: 65%;
+     transform: translateX(-50%) translateY(70%);}
+  
+     
+ }
+ @media  screen and (max-width:375px){
+    .conta{ width: 160px;
+     height: 85px;
+     position: absolute;
+     left: 50%;
+     right: 50%;
+     transform: translateX(-50%) translateY(70%);}
+  
+     
+ }
+ @media  screen and (max-width:298px){
+    .conta{ width: 140px;
+     height: 85px;
+     position: absolute;
+     left: 64%;
+     right: 50%;
+     transform: translateX(-50%) translateY(70%);}
+  
+     
+ }
+
+.ques{
+
+    background-color: #00008B	;
+    color: white;
+padding: 10px;
+font-size: 14px;
+margin: -38px ;
+border-radius: 20px;
+}
+.option{
+ 
+    display: inline-block;
+    width: 470px;
+    color: darkred;
+    vertical-align: middle;
+    padding: 10px 0px 10px 15px;
+    margin: 4px
+}
+@media  screen and (max-width:500px){
+    
+     .option{
+         width: 170px;
+         margin: -10px;
+         padding: -2px;
+ 
+     }
+ }
+ @media  screen and (max-width:500px){
+    
+    .option{
+        width: 170px;
+        margin: 10px;
+        padding: 2px;
+
+    }
+}
+@media  screen and (max-width:495px){
+    
+    .option{
+        width: 170px;
+        margin: -1px;
+        padding: -1px;
+
+    }
+}
+@media  screen and (max-width:470px){
+    
+    .option{
+        width: 170px;
+        margin: -1px;
+        padding: -1px;
+
+    }
+}
+@media  screen and (max-width:387px){
+    .option{
+        width: 170px;
+        margin: -1px;
+        padding: 1px;
+
+    }
+}
+.option:hover{
+    background-color:goldenrod;
+    color: black;
+    width: 200px;
+    border-radius: 20px;
+}
+
+#nB{
+    border: none;
+    outline: none;
+    background-color: #D87093;
+    margin: 20px;
+    margin-left: 90px;
+    width: 140px;
+    height: 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    
+}
+@media  screen and (max-width:559px){
+
+     #nB{
+        
+         margin: 14px;
+         margin-left: 70px;
+         width: 140px;
+         height: 30px;
+        
+         
+     }
+ }
+ @media  screen and (max-width:495px){
+    #nB{
+        
+        margin: 14px;
+        margin-left: 40px;
+        width: 140px;
+        height: 30px;
+       
+    }
+   
+    
+}
+
+#nB:hover{
+    background-color: black;
+    color: white;
+}
+.res{
+    height: 100px;
+    text-align: center;
+    font-size: 75px;
+  
+}

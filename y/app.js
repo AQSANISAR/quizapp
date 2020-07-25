@@ -47,6 +47,8 @@ var opt3 = document.getElementById("opt3")
 var opt4 = document.getElementById("opt4")
 var button = document.getElementById("nB")
 var res = document.getElementById("result")
+function ios(){
+}
 function loadques(quesind){
    var q= questions[quesind]
    ty.textContent = (quesind+1)+" ." + q.question
@@ -58,6 +60,7 @@ function loadques(quesind){
 
 function nextquestion(){
    var selectedoption = document.querySelector('input[type=radio]:checked')
+  
    if(!selectedoption){
       alert("select any option")
       return
@@ -82,4 +85,3 @@ selectedoption.checked =false
    loadques(cQ)
 }
 loadques(cQ)
-
